@@ -10,6 +10,6 @@ public class ITriangle extends Shape
     }
     public double getArea()
     {
-        
+        return base * height/2
     }
 }
