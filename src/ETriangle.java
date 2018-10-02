@@ -8,7 +8,7 @@ public class ETriangle extends Shape
         }
         public double getArea()
         {
-            return Math.sqrt(3)/4*(side^2);
+            return .433(side^2);
         }
         public double getPerimeter()
         {
