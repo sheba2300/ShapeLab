@@ -1,16 +1,14 @@
-public class Triangle extends Shape
+public class ETriangle extends Shape
     {
         private int side;
-        private int height;
-        public Triangle(int side, int height)
+        public ETriangle(int side)
         {
-            super("Triangle");
+            super("ETriangle");
             this.side = side;
-            this.height = height;
         }
         public double getArea()
         {
-            return .5*(side * height);
+            return Math.sqrt(3)/4*(side^2);
         }
         public double getPerimeter()
         {
