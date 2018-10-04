@@ -5,13 +5,14 @@ public class Runner {
         Shape shape2 = new ETriangle(5);
         Shape shape3 = new Circle(10);
         Shape shape4 = new Square(10);
-        Shape shape5 = new ITriangle(10,10,5);
+        Shape shape5 = new ITriangle(5,10,10);
+        Shape shape6 = new Ellipse(10,10)
 
         System.out.println(shape1);
         System.out.println("The perimeter is: " +shape1.getPerimeter());
         System.out.println("My area is: " + shape1.getArea());
 
-        Shape[] shapes = {shape1, shape2, shape3,shape4,shape5};
+        Shape[] shapes = {shape1, shape2, shape3,shape4,shape5,shape6};
 
         for (Shape cur : shapes)
         {
